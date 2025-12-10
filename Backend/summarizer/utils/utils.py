@@ -1,5 +1,4 @@
 import PyPDF2
-from ai_engine import summarize_text
 
 
 def extract_text_from_pdf(file_obj):

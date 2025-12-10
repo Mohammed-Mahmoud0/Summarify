@@ -22,5 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     # API routes
     path("api/auth/", include("accounts.urls")),
-    # path("api/summarizer/", include("summarizer.urls")),
+    path("api/summarizer/", include("summarizer.urls")),
 ]
